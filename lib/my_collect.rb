@@ -1,6 +1,6 @@
-def my_collect(collection)
+def my_collect(array)
 i = 0
-new_collection = []
+new_array = []
 while i < collection.length
  new_collection << yield(collection[i])
 i = i + 1
@@ -8,6 +8,3 @@ end
 collection
 end
 
-my_collect(student) do |student|
-  name.split(" ").first
-end
