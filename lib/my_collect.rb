@@ -10,3 +10,4 @@ end
 
 my_collect(student) do |student|
   name.split(" ").first
+end
