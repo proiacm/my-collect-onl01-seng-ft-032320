@@ -8,5 +8,5 @@ end
 collection
 end
 
-my_collect(collection) do |name|
-  name.split(" ").first
+#my_collect(collection) do |name|
+ # name.split(" ").first
